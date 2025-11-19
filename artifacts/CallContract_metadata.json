@@ -1,0 +1,128 @@
+{
+	"compiler": {
+		"version": "0.8.30+commit.73712a01"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [
+					{
+						"internalType": "contract OtherContract",
+						"name": "_Address",
+						"type": "address"
+					}
+				],
+				"name": "callGetX",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "x",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "address",
+						"name": "_Address",
+						"type": "address"
+					}
+				],
+				"name": "callGetX2",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "x",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "address",
+						"name": "_Address",
+						"type": "address"
+					},
+					{
+						"internalType": "uint256",
+						"name": "x",
+						"type": "uint256"
+					}
+				],
+				"name": "callSetX",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "address",
+						"name": "otherContract",
+						"type": "address"
+					},
+					{
+						"internalType": "uint256",
+						"name": "x",
+						"type": "uint256"
+					}
+				],
+				"name": "setXTransferETH",
+				"outputs": [],
+				"stateMutability": "payable",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"contracts/CallContract.sol": "CallContract"
+		},
+		"evmVersion": "prague",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"contracts/CallContract.sol": {
+			"keccak256": "0x35ca87fa538cc6913f0448eb87ce78367ba7c9417aa202e370d45bc27f40172b",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://0deafa3a44884a50c3b2a5f49a72425f58a94b1ea486a6178171f34421ae5875",
+				"dweb:/ipfs/QmPGxjnyEfapGSDD6RccARKHH9Y7yWskQC2MLDEWtHm6Bx"
+			]
+		},
+		"contracts/OtherContract.sol": {
+			"keccak256": "0x93dc8275f9f167b0450c5e82561da990459012b4cd645fb45dfa551da7454a38",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://f2916cee4ec38950283bfa3352945c314f124b7d1f9253f46cf37fe4c6a062af",
+				"dweb:/ipfs/QmQyhrvjk5FVr9tH1RA5mM6KcP3fmmVwF6whtimaA5dRd1"
+			]
+		}
+	},
+	"version": 1
+}
